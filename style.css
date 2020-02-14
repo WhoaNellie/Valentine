@@ -1,7 +1,9 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: rgb(224, 177, 255);
+    background-color: rgb(153, 0, 255);
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    line-height: 1.5;
 }
 
 h1{
@@ -11,7 +13,7 @@ h1{
 
 h2{
     font-size: 20pt;
-    color: rgb(194, 29, 103);
+    color: rgb(255, 81, 159);
 }
 
 .v2020{
@@ -29,6 +31,8 @@ h2{
     position: absolute;
     top: 40%;
     left: 5%;
+    background-color: rgba(255, 255, 255, 0.183);
+    border-radius: 2px;
 }
 
 @media only screen and (min-width:650px){
