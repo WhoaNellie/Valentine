@@ -4,6 +4,16 @@ body{
     background-color: rgb(224, 177, 255);
 }
 
-/* svg path{
-    fill: red;
-} */
+h1{
+    font-size: 30pt;
+    color: white;
+}
+
+h2{
+    font-size: 20pt;
+    color: rgb(194, 29, 103);
+}
+.card{
+    width: 85%;
+    margin: 0 auto;
+}
