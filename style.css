@@ -7,13 +7,16 @@ body{
 }
 
 h1{
-    font-size: 30pt;
+    font-size: 40pt;
     color: white;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
 }
 
 h2{
-    font-size: 20pt;
-    color: rgb(255, 81, 159);
+    font-size: 25pt;
+    color: rgb(255, 38, 136);
+    letter-spacing: 1px;
 }
 
 .v2020{
@@ -29,7 +32,7 @@ h2{
     margin: 0 auto;
     width: 90%;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 5%;
     background-color: rgba(255, 255, 255, 0.183);
     border-radius: 2px;
@@ -38,5 +41,8 @@ h2{
 @media only screen and (min-width:650px){
     .card{
         width: 550px;
+    }
+    #message2020{
+        top: 40%;
     }
 }
